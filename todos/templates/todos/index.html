@@ -24,11 +24,11 @@
       <form method="post" action="{% url 'todos:add' %}">
         {% csrf_token %}
         <div class="form-row">
-          <div class="col-md-6">
-            <input type="text" class="form-control" name="title" placeholder="Do laundry" required>
+          <div class="form-outline flex-fill">
+            <input type="text" class="form-control" name="title" placeholder="What do you need to do today?" required>
           </div>
-          <div class="col-md-6">
-            <button type="submit" name="submit" class="btn btn-outline-primary">
+          <div class="form-outline flex-fill">
+            <button type="submit" name="submit" class="btn btn-primary btn-lg ms-2">
               Add
             </button>
           </div>
