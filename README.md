@@ -1,4 +1,4 @@
 # django-todo
 A simple todo app built with django
 
-![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/jenkinsbuild.png)
+![todo App](https://github.com/falconcode16/django-todo-cicd/blob/develop/staticfiles/jenkinsbuild.png)
